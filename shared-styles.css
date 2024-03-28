@@ -1,0 +1,56 @@
+
+html {
+  --lumo-primary-color: green;
+  --lumo-font-family: "Roboto";
+}
+
+
+:root {
+	--color_main_red: #B80000;
+	--color_white: #fff;
+	--color_gray: #FDFDFD;
+	--color_obsidian: #222222;
+}
+
+*{
+	margin: 500px;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: red;
+}
+
+
+body{
+	padding: 2em;
+	background-color: var(--color_gray);
+}
+
+.navbar_cont {
+	background-color: var(--color_main_red);
+	border-bottom: 2px solid var(--color_obsidian);
+}
+
+.navbar_button {
+	color: var(--color_white);
+	cursor: pointer;
+	background: none;
+	font-size: 14px;
+}
+
+.navbar_button:hover{
+	background: none;
+	opacity: 0.8;
+	margin: 0;
+	border-radius: 0;
+	height: 100%;
+
+}
+
+.perfilIcon {
+	filter: invert(100%);
+	cursor: pointer;
+}
+
+.perfilIcon:hover{
+	opacity: 0.8;
+}
